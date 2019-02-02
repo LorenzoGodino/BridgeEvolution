@@ -1,0 +1,14 @@
+/* You can add global styles to this file, and also import other style files */
+input.ui-inputtext.ui-corner-all.ui-state-default.ui-widget {
+  border-radius: 45px;
+}
+
+
+body {
+  font-size: 13px !important;
+}
+
+
+input.ui-inputtext.ui-corner-all.ui-state-default.ui-widget[_ngcontent-c1] {
+  padding-left: 12px;
+}

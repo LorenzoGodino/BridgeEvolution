@@ -1,0 +1,22 @@
+<div class="ui-g">
+  <div class="ui-xl-7 ui-md-7 img-responsive imagebrigde"></div>
+  <div class="ui-g-12 ui-xl-5  ui-md-5">
+    <div class="container ">
+      <div class="row">
+        <div class="alinear-center">
+          <form [formGroup]="loginForm" (ngSubmit)="onSubmit()">
+            <div class="form-group">
+              <input type="text" pInputText placeholder="Usuario"  formControlName="username">
+            </div>
+            <div class="form-group">
+              <input type="password" placeholder="Contraseña" pInputText  formControlName="password">
+            </div>
+            <div class="form-group">
+              <button pButton type="submit" label="Entrar"  ></button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
